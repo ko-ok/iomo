@@ -13,7 +13,7 @@ class App extends Component {
         </div>
 
         <div id="apply">
-          <a href="mailto:iomo@email.com?Subject=Hello">Apply</a>
+          <a href="mailto:iomo@email.com?Subject=Hello">Find out more</a>
         </div>
       </div>
     );

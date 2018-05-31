@@ -2,7 +2,7 @@ body {
   background: lightgrey;
   margin: 0rem;
   min-height: 100vh;
-  font-family: Futura, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 #canvas, #text {
   position: absolute;
@@ -40,6 +40,9 @@ a
 {
   text-decoration: none;
   color: #1c2f54;
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
 }
 
 
