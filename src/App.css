@@ -23,7 +23,19 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-flow: row wrap;
+  position: absolute;
+  top: -50px;
 }
+
+#apply h1
+{
+  font-size: 6vmin;
+  width: 100vw;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+}
+
 #text h1,
 #apply h1 {
   opacity: 0.9;
@@ -32,22 +44,30 @@ body {
 
 #apply
 {
+  /*position: relative;*/
+  top: 120px;
+}
+
+#apply.link
+{
   position: relative;
-  top: 150px;
+  top: 250px;
 }
 
 a
 {
   text-decoration: none;
   color: #1c2f54;
-  background: #fff;
+  /*background: #fff;*/
+  border: 4px solid #fff;
   padding: 10px;
   border-radius: 4px;
+  transition: all 0.5s ease-in-out;
 }
 
 
 a:hover {
-  transition: all 0.5s ease;
   cursor: pointer;
-  color: #4d2c54;
+  /*color: #4d2c54;*/
+  background: #fff;
 }

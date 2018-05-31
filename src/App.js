@@ -13,6 +13,10 @@ class App extends Component {
         </div>
 
         <div id="apply">
+          <h1>Match Right, Match Once</h1>
+        </div>
+
+        <div id="apply" className="link">
           <a href="mailto:iomo@email.com?Subject=Hello">Find out more</a>
         </div>
       </div>
