@@ -17,7 +17,7 @@ class App extends Component {
         </div>
 
         <div id="apply" className="link">
-          <a href="mailto:iomo@email.com?Subject=Hello">Find out more</a>
+          <a href="https://kacperniburski.typeform.com/to/HQLi9s" target="_blank">Find out more</a>
         </div>
       </div>
     );
